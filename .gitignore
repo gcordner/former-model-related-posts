@@ -1,0 +1,22 @@
+# Etc
+.DS_Store
+node_modules/
+*.old
+vendor/*
+*.new
+css/build/*
+js/build/*
+
+# Node modules
+/node_modules/
+
+# Build artifacts
+/build/
+/dist/
+/*.asset.php
+*.log
+
+# OS / IDE stuff
+.DS_Store
+*.swp
+.vscode/

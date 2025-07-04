@@ -1,0 +1,13 @@
+{
+  "name": "gcordner/former-model-related-posts",
+  "type": "wordpress-plugin",
+  "description": "Related posts plugin using categories and tags.",
+  "version": "1.0.0",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Geoff Cordner",
+      "email": "geoffcordner@gmail.com"
+    }
+  ]
+}

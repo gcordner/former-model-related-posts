@@ -2,3 +2,21 @@
  * All of the CSS for your public-facing functionality should be
  * included in this file.
  */
+
+.fm-related-posts-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.fm-related-post {
+  flex: 1 1 calc(33.333% - 1rem);
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .fm-related-post {
+    flex: 1 1 100%;
+  }
+}
